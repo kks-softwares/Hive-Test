@@ -39,6 +39,7 @@ const Hive = () => {
 
     return (
         <div className='container mt-4' style={{ padding: '6vw', background: 'beige' }}>
+            <h2 className='mb-4'>This function will only check 5 times</h2>
             <button type="button" class="btn btn-info" disabled={buttonDisable}
                 onClick={psuedoApiStub}>START
             </button>
